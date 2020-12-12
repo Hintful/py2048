@@ -5,7 +5,7 @@ Simple implementation of 2048 game.
 
 ## How to run
 
-Run `python3 play.py [board_size]` from the root directory. `board_size` is optional; default is 4.
+Run `python3 play.py <board_size>` from the root directory. `<board_size>` is optional; default is 4.
 
 ## How to play
 
