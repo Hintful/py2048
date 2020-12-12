@@ -147,11 +147,3 @@ class board:
                     continue
 
             self.grant_point(1)
-
-if __name__ == "__main__":
-    if len(sys.argv) == 1: # default setting
-        game = board(4) # default size is 4x4
-    else:
-        game = board(int(sys.argv[1]))
-
-    game.play()
